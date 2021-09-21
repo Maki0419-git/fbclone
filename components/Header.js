@@ -49,7 +49,7 @@ export default function Header() {
                 <Image
                     onClick={signOut}
                     src="/m.png"
-                    alt="M"
+
                     height={40}
                     width={40}
                     layout="fixed"
