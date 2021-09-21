@@ -1,8 +1,11 @@
 {
   "name": "fbclone",
+  "homepage": "https://Maki0419-git.github.io/fbclone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,6 +13,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.4",
+    "gh-pages": "^3.2.3",
     "next": "11.1.2",
     "next-auth": "^3.29.0",
     "react": "17.0.2",

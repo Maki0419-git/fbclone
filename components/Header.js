@@ -48,7 +48,8 @@ export default function Header() {
                 {/* profile Pic */}
                 <Image
                     onClick={signOut}
-                    src="https://links.papareact.com/5me"
+                    src="/m.png"
+                    alt="M"
                     height={40}
                     width={40}
                     layout="fixed"
